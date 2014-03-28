@@ -231,6 +231,7 @@ Phaser.Timer.prototype = {
     /**
     * Starts this Timer running.
     * @method Phaser.Timer#start
+    * @param {number} startDelay - The number of milliseconds that should elapse before the Timer will start.
     */
     start: function (startDelay) {
 
